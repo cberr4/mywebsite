@@ -2,7 +2,7 @@ import React from 'react'
 
 const Content = (location) => {
     return (
-        <div>
+        <div className=''>
             {location.children}
         </div>
     )

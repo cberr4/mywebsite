@@ -16,7 +16,7 @@ function Nav(location) {
         <nav>
             <ul className='flex flex-row'>
                 {pages.map((Page) => (
-                    <li className={`${ currentPage.name === Page.name && 'navActive'} flex-auto cursor-pointer`} key={Page.name}>
+                    <li className={`${ currentPage.name === Page.name && 'navActive'} flex-auto cursor-pointer py-6 px-10`} key={Page.name}>
                         <span onClick={() => SetCurrent(Page)}>{Page.name}</span>
                     </li>
                 ))}

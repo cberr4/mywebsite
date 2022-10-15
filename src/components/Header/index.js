@@ -2,8 +2,8 @@ import React from 'react'
 
 function Header(location) {
     return (
-        <header className='mb'>
-            <h1>Example header text</h1>
+        <header className='flex items-center'>
+            <h1 className='px-8'>My website</h1>
             {location.children}
         </header>
     )

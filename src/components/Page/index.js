@@ -20,8 +20,8 @@ function Page({ currentPage }) {
     }
 
     return (
-        <section>
-            <h2 className='text-4xl'>{currentPage.name}</h2>
+        <section className='px-36'>
+            <h2 className='text-2xl font-bold'>{currentPage.name}</h2>
             <Content>{render()}</Content>
         </section>
     )
