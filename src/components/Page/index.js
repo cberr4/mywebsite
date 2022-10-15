@@ -21,7 +21,7 @@ function Page({ currentPage }) {
 
     return (
         <section>
-            <h2>{currentPage.name}</h2>
+            <h2 className='text-4xl'>{currentPage.name}</h2>
             <Content>{render()}</Content>
         </section>
     )
