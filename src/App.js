@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import Header from './components/Header'
-// import Nav from './components/Nav'
+import Nav from './components/Nav'
 import Page from './components/Page'
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
   return (
     <div>
       <Header>
-        {/* <Nav pages={pages} SetCurrent={SetCurrent} currentPage={currentPage}></Nav> */}
+        <Nav pages={pages} SetCurrent={SetCurrent} currentPage={currentPage}></Nav>
       </Header>
       <main>
         <Page currentPage={currentPage}></Page>
