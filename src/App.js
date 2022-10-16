@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import Particle from './components/Particle'
 import Header from './components/Header'
 import Nav from './components/Nav'
 import Page from './components/Page'
@@ -14,12 +15,15 @@ function App() {
 
   return (
     <div>
-      <Header>
-        <Nav pages={pages} SetCurrent={SetCurrent} currentPage={currentPage}></Nav>
-      </Header>
-      <main>
-        <Page currentPage={currentPage}></Page>
-      </main>
+      <Particle/>
+      <body>
+        <Header>
+          <Nav pages={pages} SetCurrent={SetCurrent} currentPage={currentPage}></Nav>
+        </Header>
+        <main>
+          <Page currentPage={currentPage}></Page>
+        </main>
+      </body>
     </div>
   );
 }
