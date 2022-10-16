@@ -21,7 +21,7 @@ function Page({ currentPage }) {
 
     return (
         <section className='px-36'>
-            <h2 className='text-2xl font-bold'>{currentPage.name}</h2>
+            <h2 className='text-2xl font-bold py-8'>{currentPage.name}</h2>
             <Content>{render()}</Content>
         </section>
     )

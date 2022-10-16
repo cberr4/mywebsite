@@ -3,6 +3,6 @@
 @tailwind utilities;
 
 .navActive {
-    color: green;
+    color: #AEB6BF;
     cursor: default;
 }

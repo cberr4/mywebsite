@@ -28,7 +28,7 @@ function Particle() {
       },
       background: {
         color: {
-          value: "#F4F6F6",
+          value: "#5D6D7E",
         },
       },
       fpsLimit: 120,
@@ -56,11 +56,11 @@ function Particle() {
       },
       particles: {
         color: {
-          value: "#000000",
+          value: "#ffffff",
         },
         links: {
-          color: "#000000",
-          distance: 300,
+          color: "#ffffff",
+          distance: 200,
           enable: true,
           opacity: 0.3,
           width: 1,

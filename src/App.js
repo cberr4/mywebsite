@@ -16,7 +16,7 @@ function App() {
   return (
     <div>
       <Particle/>
-      <body>
+      <body className='text-slate-200 font-mono'>
         <Header>
           <Nav pages={pages} SetCurrent={SetCurrent} currentPage={currentPage}></Nav>
         </Header>
