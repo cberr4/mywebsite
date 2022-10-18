@@ -16,14 +16,14 @@ function App() {
   return (
     <div>
       <Particle/>
-      <body className='text-slate-200 font-mono'>
+      <div className='text-slate-200 font-mono'>
         <Header>
           <Nav pages={pages} SetCurrent={SetCurrent} currentPage={currentPage}></Nav>
         </Header>
         <main>
           <Page currentPage={currentPage}></Page>
         </main>
-      </body>
+      </div>
     </div>
   );
 }
