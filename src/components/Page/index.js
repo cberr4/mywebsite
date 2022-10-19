@@ -20,7 +20,7 @@ function Page({ currentPage }) {
     }
 
     return (
-        <section className='px-36'>
+        <section className='mx-8'>
             <h2 className='text-2xl font-bold py-8'>{currentPage.name}</h2>
             <Content>{render()}</Content>
         </section>

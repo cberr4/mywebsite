@@ -6,3 +6,9 @@
     color: #AEB6BF;
     cursor: default;
 }
+
+@media screen and (max-width: 500) {
+    div.example {
+      display: none;
+    }
+}
