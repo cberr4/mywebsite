@@ -13,10 +13,10 @@ function Nav(location) {
 
 
     return (
-        <nav>
-            <ul className='flex flex-row'>
+        <nav className=''>
+            <ul className='flex flex-row space-x-16'>
                 {pages.map((Page) => (
-                    <li className={`${ currentPage.name === Page.name && 'navActive'} flex-auto cursor-pointer py-6 px-10`} key={Page.name}>
+                    <li className={`${ currentPage.name === Page.name && 'navActive'} flex-auto cursor-pointer py-8`} key={Page.name}>
                         <span onClick={() => SetCurrent(Page)}>{Page.name}</span>
                     </li>
                 ))}
