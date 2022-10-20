@@ -63,7 +63,7 @@ function Particle() {
           distance: 200,
           enable: true,
           opacity: 0.3,
-          width: 1,
+          width: 1.5,
         },
         collisions: {
           enable: true,
