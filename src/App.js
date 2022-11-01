@@ -3,6 +3,7 @@ import Particle from './components/Particle'
 import Header from './components/Header'
 import Nav from './components/Nav'
 import Page from './components/Page'
+import Loader from './components/Loader'
 
 function App() {
   // For Navigation
@@ -24,6 +25,7 @@ function App() {
         <main>
           <Page currentPage={currentPage}></Page>
         </main>
+        <Loader/>
       </div>
     </div>
   );
