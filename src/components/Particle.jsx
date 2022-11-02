@@ -27,10 +27,11 @@ function Particle() {
         zIndex: -1
       },
       background: {
-        // color: {
-        //   value: "#000",
-        // },
-        image: "linear-gradient(#000000, #202020)"
+        color: {
+          value: "#000000, #202020",
+        },
+        image: "linear-gradient(#000000, #202020)",
+        width: "100%"
       },
       fpsLimit: 120,
       interactivity: {
