@@ -1,6 +1,6 @@
-import { useCallback } from "react";
-import Particles from "react-tsparticles";
-import { loadFull } from "tsparticles";
+import { useCallback } from "react"
+import Particles from "react-tsparticles"
+import { loadFull } from "tsparticles"
 
 function Particle() {
 
@@ -27,9 +27,10 @@ function Particle() {
         zIndex: -1
       },
       background: {
-        color: {
-          value: "#000",
-        },
+        // color: {
+        //   value: "#000",
+        // },
+        image: "linear-gradient(#000000, #202020)"
       },
       fpsLimit: 120,
       interactivity: {

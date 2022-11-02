@@ -4,7 +4,7 @@ import logo from '../strawberry.jpg'
 function Page2() {
     return (
         <section>
-            <p className='card p-4'>
+            <p className='card pb-4'>
             Sed lacinia augue porttitor nisl consectetur maximus. Nullam pellentesque massa vitae massa pharetra volutpat. Ut auctor, purus facilisis iaculis interdum, massa nisi volutpat dolor, ut porta leo massa at urna. Curabitur vulputate rhoncus leo ac lobortis. Pellentesque tempus bibendum nulla. Suspendisse ac elit vitae metus varius lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus. In maximus tortor ut augue dignissim, at ultricies mauris malesuada.
             <img src={logo} alt='strawberry' className='w-48 l-48 p-4 rounded-full'/>
             Aliquam erat volutpat. Nunc sit amet velit a dui viverra accumsan ac vel lacus.
