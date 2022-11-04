@@ -28,9 +28,9 @@ function Particle() {
       },
       background: {
         color: {
-          value: "#000000, #202020",
+          value: "#000000, #1A1A1A",
         },
-        image: "linear-gradient(#000000, #202020)",
+        image: "linear-gradient(#000000, #1A1A1A)",
         width: "100%"
       },
       fpsLimit: 120,
@@ -62,9 +62,9 @@ function Particle() {
         },
         links: {
           color: "#ffffff",
-          distance: 200,
+          distance: 175,
           enable: true,
-          opacity: 0.5,
+          opacity: 0.3,
           width: 1.5,
         },
         collisions: {
