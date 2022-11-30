@@ -51,7 +51,7 @@ function Particle() {
             quantity: 4,
           },
           repulse: {
-            distance: 200,
+            distance: 100,
             duration: 0.4,
           },
         },
@@ -74,10 +74,10 @@ function Particle() {
           directions: "none",
           enable: true,
           outModes: {
-            default: "bounce",
+            default: "through",
           },
-          random: false,
-          speed: 0.8,
+          random: true,
+          speed: 0.4,
           straight: false,
         },
         number: {
@@ -85,16 +85,16 @@ function Particle() {
             enable: true,
             area: 2000,
           },
-          value: 60,
+          value: 80,
         },
         opacity: {
           value: 0.2,
         },
         shape: {
-          type: "circle",
+          type: "triangle",
         },
         size: {
-          value: { min: 1, max: 4 },
+          value: { min: 1, max: 6 },
         },
       },
       detectRetina: true,

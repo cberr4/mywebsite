@@ -8,11 +8,11 @@ function Page({ currentPage }) {
 
     const render = () => {
         switch(currentPage.name) {
-            case 'Page1':
+            case 'About':
                 return <Page1></Page1>
-            case 'Page2':
+            case 'Portfolio':
                 return <Page2></Page2>
-            case 'Page3':
+            case 'Contact':
                 return <Page3></Page3>
             default:
                 return <Page1></Page1>

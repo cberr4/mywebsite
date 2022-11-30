@@ -8,9 +8,9 @@ import FadeIn from 'react-fade-in'
 function App() {
   // For Navigation
   const [pages] = useState([
-    { name: 'Page1' },
-    { name: 'Page2' },
-    { name: 'Page3' }
+    { name: 'About' },
+    { name: 'Portfolio' },
+    { name: 'Contact' }
   ])
   const [currentPage, SetCurrent] = useState(pages[0])
 
