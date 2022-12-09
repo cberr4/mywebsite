@@ -1,10 +1,11 @@
 import React from 'react';
-import selfie from '../image.jpg'
 
 function Page1() {
     return (
-        <div className='flex sm:px-4 md:px-16 lg:px-28 xl:px-36 xl:pb-12'>
+        <div className='py-4 sm:px-4 md:px-16 lg:px-28 xl:px-36 xl:pb-12'>
             <section>
+                <h1 className='text-6xl'>Building the new internet</h1>
+                <br/>
                 <p className='py-4'>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed tincidunt neque. Sed lacinia augue porttitor nisl consectetur maximus. 
                 </p>
@@ -25,7 +26,6 @@ function Page1() {
                 Pellentesque tempus bibendum nulla. Suspendisse ac elit vitae metus varius lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus. In maximus tortor ut augue dignissim, at ultricies mauris malesuada.
                 </p>
             </section>
-            <img src={selfie} alt='selfie' className='h-80 p-8'/>
         </div>
     );
 }

@@ -2,8 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+
 .navActive {
-    color: #AEB6BF;
+    color: #979797;
     cursor: default;
 }
 

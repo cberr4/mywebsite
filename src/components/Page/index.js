@@ -21,7 +21,7 @@ function Page({ currentPage }) {
 
     return (
         <section className='mx-8 transition-opacity duration-700 opacity-100'>
-            <h2 className='font-bold text-xl pb-6 md:px-16 md:text-3xl lg:px-28 lg:text-4xl xl:px-36 xl:text-6xl'>{currentPage.name}</h2>
+            {/* <h2 className='font-bold text-xl pb-6 md:px-16 md:text-3xl lg:px-28 lg:text-4xl xl:px-36 xl:text-6xl'>{currentPage.name}</h2> */}
                 <Content>{render()}</Content>
         </section>
     )
