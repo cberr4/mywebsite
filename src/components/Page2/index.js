@@ -14,21 +14,15 @@ function Page2() {
                 </p>
                 <h2 className='text-5xl '>Skills</h2>
                 <br/>
-                <p className='py-4'>
-                React.js
-                Node.js
-                MongoDB
-                Express.js
-                Object-Oriented Programming (OOP)
-                Progressive Web Applications (PWAs)
-                Object-Relational Mapping (ORM)
-                Model-View-Controller (MVC)
-                MySQL
-                REST APIs
-                JavaScript
-                Cascading Style Sheets (CSS)
-                HTML
-                </p>
+                <ul className='py-4'>
+                <li className='pb-4'>Javascript, Node.js, Express.js, REST APIs</li>
+                <li className='pb-4'>Front end: HTML, CSS, React.js </li>
+                <li className='pb-4'>Back End: MySQL, MongoDB</li>
+                <li className='pb-4'>Object-Oriented Programming</li>
+                <li className='pb-4'>Object-Relational Mapping</li>
+                <li className='pb-4'> Model-View-Controller</li>
+                <li className='pb-4'>Progressive Web Applications</li>
+                </ul>
                 <p className='py-4'>
                 </p>
             </section>
