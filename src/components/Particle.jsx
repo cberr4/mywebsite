@@ -58,9 +58,9 @@ function Particle() {
         },
         links: {
           color: "#ffffff",
-          distance: 250,
+          distance: 150,
           enable: true,
-          opacity: 0.1,
+          opacity: 0.3,
           width: 0.2,
         },
         collisions: {
