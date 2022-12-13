@@ -2,7 +2,7 @@ import React from 'react';
 
 function Page1() {
     return (
-        <div className='sm:px-4 md:px-16 lg:px-28 xl:px-36 xl:pb-12'>
+        <div className='md:px-16 lg:px-28 xl:px-36 xl:pb-12'>
             <section>
                 <h1 className='text-6xl'>Building the new internet</h1>
                 <br/>
