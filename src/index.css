@@ -7,10 +7,3 @@
     color: #979797;
     cursor: default;
 }
-
-.page {
-    position: absolute;
-    top: 100px;
-    left: 0;
-    right: 0;
-}
