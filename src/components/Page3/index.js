@@ -2,7 +2,7 @@ import React from 'react';
 
 function Page2() {
     return (
-        <div className='py-4 sm:px-4 md:px-16 lg:px-28 xl:px-36 xl:pb-12'>
+        <div className='sm:px-4 md:px-16 lg:px-28 xl:px-36 xl:pb-12'>
             <section>
                 <h2 className='text-5xl'>How to reach me</h2>
                 <br/>
