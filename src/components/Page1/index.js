@@ -3,7 +3,8 @@ import React from 'react';
 function Page1() {
     return (
         <div className='md:px-16 lg:px-28 xl:px-36 xl:pb-12'>
-            <section>
+            <div className='tester'>Hello my name is Chris!</div>
+            {/* <section>
                 <h1 className='text-6xl'>Building the new internet</h1>
                 <br/>
                 <p className='py-4'>
@@ -25,7 +26,7 @@ function Page1() {
                 <p className='py-4'>
                 Pellentesque tempus bibendum nulla. Suspendisse ac elit vitae metus varius lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus. In maximus tortor ut augue dignissim, at ultricies mauris malesuada.
                 </p>
-            </section>
+            </section> */}
         </div>
     );
 }
